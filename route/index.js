@@ -6,6 +6,6 @@ route.get("/", (req, res) => {
 });
 
 route.use("/auth", require("./authRoute"));
-
+route.use("/category", require("./categoryRoute"));
 module.exports = route;
 // mongodb+srv://node2601-ecommerce:39xQFcIIri5o6ywO@cluster0.hppyt.mongodb.net/node2601-ecommerce?appName=Cluster0
